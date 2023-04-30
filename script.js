@@ -19,10 +19,10 @@ const next_year = current_year + 1;
 // console.log("next year: ", next_year);
 
 // dia de interesse, considerando o ano atual
-const current_day = new Date(`June 12 ${current_year} 00:00:00`);
+const current_day = new Date(`May 29 ${current_year} 00:00:00`);
 
 // dia de interesse, considerando o próximo ano 
-const next_day = new Date(`June 12 ${next_year} 00:00:00`);
+const next_day = new Date(`May 29 ${next_year} 00:00:00`);
 
 if(today > current_day){ // se o dia já passou, considerar a data do próximo ano
 
